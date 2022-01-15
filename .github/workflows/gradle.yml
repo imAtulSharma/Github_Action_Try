@@ -35,4 +35,4 @@ jobs:
     - name: Delete Artifact
       uses: geekyeggo/delete-artifact@v1
       with:
-        name: my-artifact
+        name: apk
