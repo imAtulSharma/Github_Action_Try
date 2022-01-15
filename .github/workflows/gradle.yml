@@ -38,7 +38,7 @@ jobs:
         delete_release: true 
         tag_name: v1.1.1
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITTHUB_TOKEN }}
     - name: Download APK from build
       uses: actions/download-artifact@v1
       with:
